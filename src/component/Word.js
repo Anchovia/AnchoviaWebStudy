@@ -1,20 +1,7 @@
-import React from 'react';
 import { useState } from 'react';
 
-interface IProps {
-    word : IWord;
-}
-
-interface IWord {
-    day : string,
-    eng : string,
-    kor : string,
-    isDone : boolean,
-    id : number
-}
-
-export default function Word({ word:w } : IProps){
-    const [word, setWord] = useState(w);
+export default function Word(props){
+    const [word, setWord] = useState(props.word);
     const [isShow, setIsShow] = useState(false);
     const [isDone, setIsDone] = useState(word.isDone);
 
