@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import Hello from './component/Hello';
 
 function Header(props){
   return(
