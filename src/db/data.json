@@ -15,6 +15,10 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
     }
   ],
   "words": [
@@ -62,13 +66,6 @@
     },
     {
       "day": "4",
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone": false,
-      "id": 10
-    },
-    {
-      "day": "4",
       "eng": "apple",
       "kor": "사과",
       "isDone": false,
@@ -80,6 +77,27 @@
       "kor": "사과",
       "isDone": false,
       "id": 12
+    },
+    {
+      "day": "1",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "1",
+      "eng": "city",
+      "kor": "도시",
+      "isDone": false,
+      "id": 16
     }
   ]
 }
